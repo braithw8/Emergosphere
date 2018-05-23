@@ -67,6 +67,6 @@ R. Hamilton, “Sonifying game-space choreographies with udkosc,” in Proceedin
 * C. Ariza, “The dual-analog gamepad as a practical platform for live electronics instrument and interface design,” in Proceedings of the international conference on new interfaces for musical expression, Ann Arbor, Michigan, 2012. 
 * K. Headlee, T. Koziupa, and D. Siwiak, “Sonic virtual reality game : how does your body sound ?,” in Proceedings of the international conference on new interfaces for musical expression, Sydney, Australia, 2010, pp. 423-426. 
 * A. Dolphin, “Spiralset : a sound toy utilizing game engine technologies,” in Proceedings of the international conference on new interfaces for musical expression, Pittsburgh, PA, United States, 2009, pp. 56-57. 
-
+* L. Kessous, “Bi-manual mapping experimentation, with angular fundamental frequency control and sound color navigation,” in Proceedings of the international conference on new interfaces for musical expression, Dublin, Ireland, 24-26 May, 2002 2002, pp. 113-114. 
 
   
