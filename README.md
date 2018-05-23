@@ -61,9 +61,6 @@ Three examples of previous work that inspire this project are:
   * A synthesizer and sequencer that explores the table top space, creating performance and composition through touch and the placement of objects on the surface.
  ## Papers of Interest
 * N. Feehan, “Audio orienteering — navigating an invisible terrain,” in Proceedings of the international conference on new interfaces for musical expression, Pittsburgh, PA, United States, 2009, pp. 161-162.
-* L. Kessous, “Bi-manual mapping experimentation, with angular fundamental frequency control and sound color navigation,” in Proceedings of the international conference on new interfaces for musical expression, Dublin, Ireland, 24-26 May, 2002 2002, pp. 113-114. 
-* M. Kallionpää, C. Greenhalgh, A. Hazzard, D. M. Weigl, K. R. Page, and S. Benford, “Composing and realising a game-like performance for disklavier and electronics,” in Proceedings of the international conference on new interfaces for musical expression, Copenhagen, Denmark, 2017, pp. 464-469. 
-* S. Smallwood, “Locus sono: a listening game for nime,” in Proceedings of the international conference on new interfaces for musical expression, Copenhagen, Denmark, 2017, pp. 491-492. 
 * M. Huberth and C. Nanou, “Notation for 3D motion tracking controllers: a gametrak case study,” in Proceedings of the international conference on new interfaces for musical expression, Brisbane, Australia, 2016, pp. 96-105. 
 * A. Sa, “Repurposing video game software for musical expression: a perceptual approach,” in Proceedings of the international conference on new interfaces for musical expression, London, United Kingdom, 2014, pp. 331-334. 
 R. Hamilton, “Sonifying game-space choreographies with udkosc,” in Proceedings of the international conference on new interfaces for musical expression, Daejeon, Republic of Korea, 2013, pp. 446-449. 
