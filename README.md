@@ -7,18 +7,18 @@ Performances are immersed in a virtual environment, their movement and interacti
 ## Mapped Parameters
 ### Navigation
 Ultimately, navigatory parameters will map to the auditory, shaping the aural experience. The following movement parameters will affect sound:
-* rotation (euler angles)
+* Rotation (euler angles)
   * x
   * y
   * z
-* trajectory (in relation to rotation)
-  * forward
-  * backward
-  * up
-  * down
-  * left
-  * right
-* velocity
+* Trajectory (in relation to rotation)
+  * Forward
+  * Backward
+  * Up
+  * Down
+  * Left
+  * Right
+* Velocity
 
 Performers will be able to create unique combinations of controllable parameters for performance the rotation, relative trajectory, and velocity of their movement in space.
 ### Sound
@@ -29,9 +29,9 @@ The following is a preliminary list of mappable sound parameters that will be co
 * Timbre
   * From simple to complex, single frequency to spectrum rich with overtones
 * Filter
-  * type
-  * cutoff
-  * resonance
+  * Type
+  * Cutoff
+  * Resonance
   * Envelope amount
 * Amplitude
   * Level
@@ -50,7 +50,7 @@ The following is a preliminary list of mappable sound parameters that will be co
  ## Triggers
 While the navigation within the space defines the parameters of sound, the buttons on the game controller will trigger the amplitude and filter envelopes and, in the case of sampled sources, playback.
 ## Development Parameters
-The emergosphere will be developed for the HTC Vive VR system using Unity and PureData, connected via OSC. This project will leverage existing libraries for both [Vive](https://assetstore.unity.com/packages/tools/integration/vive-input-utility-64219) and [OSC](https://github.com/jorgegarcia/UnityOSC) integration.
+The Emergosphere will be developed for the HTC Vive VR system using Unity and PureData, connected via OSC. This project will leverage existing libraries for both [Vive](https://assetstore.unity.com/packages/tools/integration/vive-input-utility-64219) and [OSC](https://github.com/jorgegarcia/UnityOSC) integration.
 ## Inspirations
 Three examples of previous work that inspire this project are:
 * **Leo Theremin's _Theremin_**
