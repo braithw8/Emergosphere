@@ -10,7 +10,7 @@ Ultimately, navigatory parameters will map to the auditory, shaping the aural ex
 * rotation (euler angles)
   * x
   * y
-  * Z
+  * z
 * trajectory (in relation to rotation)
   * forward
   * backward
