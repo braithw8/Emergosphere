@@ -51,7 +51,7 @@ The following is a preliminary list of mappable sound parameters that will be co
 While the navigation within the space defines the parameters of sound, the buttons on the game controller will trigger the amplitude and filter envelopes and, in the case of sampled sources, playback.
 ## Development Parameters
 The emergosphere will be developed for the HTC Vive VR system using Unity and PureData, connected via OSC. This project will leverage existing libraries for both [Vive](https://assetstore.unity.com/packages/tools/integration/vive-input-utility-64219) and [OSC](https://github.com/jorgegarcia/UnityOSC) integration.
-### Inspirations
+## Inspirations
 Three examples of previous work that inspire this project are:
 * **Leo Theremin's _Theremin_**
   * This seminal instrument magically translates radio interference to pitch and amplitude with stunning effect.
@@ -59,3 +59,17 @@ Three examples of previous work that inspire this project are:
   * A simple plotting of effect or oscillator parameters against one another on an xy cartesian plane that creates interesting possibilities of parametric control.
 * **_reacTable_**
   * A synthesizer and sequencer that explores the table top space, creating performance and composition through touch and the placement of objects on the surface.
+ ## Papers of Interest
+* N. Feehan, “Audio orienteering — navigating an invisible terrain,” in Proceedings of the international conference on new interfaces for musical expression, Pittsburgh, PA, United States, 2009, pp. 161-162.
+* L. Kessous, “Bi-manual mapping experimentation, with angular fundamental frequency control and sound color navigation,” in Proceedings of the international conference on new interfaces for musical expression, Dublin, Ireland, 24-26 May, 2002 2002, pp. 113-114. 
+* M. Kallionpää, C. Greenhalgh, A. Hazzard, D. M. Weigl, K. R. Page, and S. Benford, “Composing and realising a game-like performance for disklavier and electronics,” in Proceedings of the international conference on new interfaces for musical expression, Copenhagen, Denmark, 2017, pp. 464-469. 
+* S. Smallwood, “Locus sono: a listening game for nime,” in Proceedings of the international conference on new interfaces for musical expression, Copenhagen, Denmark, 2017, pp. 491-492. 
+* M. Huberth and C. Nanou, “Notation for 3D motion tracking controllers: a gametrak case study,” in Proceedings of the international conference on new interfaces for musical expression, Brisbane, Australia, 2016, pp. 96-105. 
+* A. Sa, “Repurposing video game software for musical expression: a perceptual approach,” in Proceedings of the international conference on new interfaces for musical expression, London, United Kingdom, 2014, pp. 331-334. 
+R. Hamilton, “Sonifying game-space choreographies with udkosc,” in Proceedings of the international conference on new interfaces for musical expression, Daejeon, Republic of Korea, 2013, pp. 446-449. 
+* C. Ariza, “The dual-analog gamepad as a practical platform for live electronics instrument and interface design,” in Proceedings of the international conference on new interfaces for musical expression, Ann Arbor, Michigan, 2012. 
+* K. Headlee, T. Koziupa, and D. Siwiak, “Sonic virtual reality game : how does your body sound ?,” in Proceedings of the international conference on new interfaces for musical expression, Sydney, Australia, 2010, pp. 423-426. 
+* A. Dolphin, “Spiralset : a sound toy utilizing game engine technologies,” in Proceedings of the international conference on new interfaces for musical expression, Pittsburgh, PA, United States, 2009, pp. 56-57. 
+
+
+  
