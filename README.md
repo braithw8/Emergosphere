@@ -52,10 +52,10 @@ While the navigation within the space defines the parameters of sound, the butto
 The emergosphere will be developed for the HTC Vive VR system using Unity and PureData, connected via OSC. This project will leverage existing libraries for both [Vive](https://assetstore.unity.com/packages/tools/integration/vive-input-utility-64219) and [OSC](https://github.com/jorgegarcia/UnityOSC) integration.
 ### Inspirations
 Three examples of previous work that inspire this project are:
-* **Leo Theremin's _Theremin_
+* **Leo Theremin's _Theremin_**
   * This seminal instrument magically translates radio interference to pitch and amplitude with stunning effect.
-* **Korg Kaoss Series (Kaoss Pad, Kaoscillator)
+* **Korg Kaoss Series (_Kaoss Pad, Kaoscillator_)**
   * A simple plotting of effect or oscillator parameters against one another on an xy cartesian plane that creates interesting possibilties of parametric control.
-* **reacTable
+* **_reacTable_**
   * A synthesizer and sequencer that explores the table top space, creating performance and composition through touch and the placement of objects on the surface.
   
