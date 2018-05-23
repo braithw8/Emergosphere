@@ -68,5 +68,9 @@ R. Hamilton, “Sonifying game-space choreographies with udkosc,” in Proceedin
 * K. Headlee, T. Koziupa, and D. Siwiak, “Sonic virtual reality game : how does your body sound ?,” in Proceedings of the international conference on new interfaces for musical expression, Sydney, Australia, 2010, pp. 423-426. 
 * A. Dolphin, “Spiralset : a sound toy utilizing game engine technologies,” in Proceedings of the international conference on new interfaces for musical expression, Pittsburgh, PA, United States, 2009, pp. 56-57. 
 * L. Kessous, “Bi-manual mapping experimentation, with angular fundamental frequency control and sound color navigation,” in Proceedings of the international conference on new interfaces for musical expression, Dublin, Ireland, 24-26 May, 2002 2002, pp. 113-114. 
+* S. le Groux, J. Manzolli, and P. F. Verschure, “Vr-roboser : real-time adaptive sonification of virtual environments based on avatar behavior,” in Proceedings of the international conference on new interfaces for musical expression, New York City, NY, United States, 2007, pp. 371-374. 
+* R. Graham, B. Bridges, C. Manzione, and W. Brent, “Exploring pitch and timbre through 3d spaces: embodied models in virtual reality as a basis for performance systems design,” in Proceedings of the international conference on new interfaces for musical expression, Copenhagen, Denmark, 2017, pp. 157-162.
+* B. Carey, “Spectrascore vr: networkable virtual reality software tools for real-time composition and performance,” in Proceedings of the international conference on new interfaces for musical expression, Brisbane, Australia, 2016, pp. 3-4. 
+* C. Honigman, A. Walton, and A. Kapur, “The third room: a 3D virtual music framework,” in Proceedings of the international conference on new interfaces for musical expression, Daejeon, Republic of Korea, 2013, pp. 29-34. 
 
   
