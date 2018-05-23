@@ -11,21 +11,21 @@ Ultimately, navigatory parameters will map to the auditory, shaping the aural ex
   * y
   * Z
 * trajectory (in relation to rotation)
- * forward
- * backward
- * up
- * down
- * left
- * right
+  * forward
+  * backward
+  * up
+  * down
+  * left
+  * right
 * velocity
 Performers will be able to creat unique combinations of controllable parameters for performance the rotation, relative trajectory, and velocity of their movement in space.
 ## Mapped Sound Parameters
 The following is a preliminary list of mappable sound parameters that will be connected the the above navigational parameters:
 * Pitch
 * Timbre
- * From simple to complex, single frequency to spectrum rich with overtones
+  * From simple to complex, single frequency to spectrum rich with overtones
 * Filter
- * type
- * cutoff
- * resonance
+  * type
+  * cutoff
+  * resonance
 *
