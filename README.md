@@ -6,15 +6,26 @@ Emergosphere is an explorative universe of sound. Realized using virtual reality
 Performances are immersed in a virtual environment, their movement and interactions within the space are mapped to triggers and parameters of sound generators (oscilators, sample playback) as well as audio signal processors (time, amplitude, and spectrum). Primary feedback to the performer will be aural, nurturing a navigation and engagment based on auditory cues rather than visual. There will be visual feedback that corresponds to the aural, but the goal is to have an auditory experience that could exist without the visual.
 ## Navigation Parameters
 Ultimately, navigatory parameters will map to the auditory, shaping the aural experience. The following movement parameters will effect sound:
-* rotation
+* rotation (euler angles)
   * x
   * y
   * Z
-* movment
-  * forward
-  * backward
-  * up
-  * down
-  * left
-  * right
-Un
+* trajectory (in relation to rotation)
+ * forward
+ * backward
+ * up
+ * down
+ * left
+ * right
+* velocity
+Performers will be able to creat unique combinations of controllable parameters for performance the rotation, relative trajectory, and velocity of their movement in space.
+## Mapped Sound Parameters
+The following is a preliminary list of mappable sound parameters that will be connected the the above navigational parameters:
+* Pitch
+* Timbre
+ * From simple to complex, single frequency to spectrum rich with overtones
+* Filter
+ * type
+ * cutoff
+ * resonance
+*
