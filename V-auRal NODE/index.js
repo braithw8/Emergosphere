@@ -8,7 +8,7 @@ var flock = require("flocking")
 var synth1 = flock.synth({
     synthDef: {
         ugen: "flock.ugen.sin",
-        freq: 500,
+        freq: 1,
         id: "osc1",
         mul: .15
     }
@@ -17,7 +17,7 @@ var synth1 = flock.synth({
 var synth2 = flock.synth({
     synthDef: {
         ugen: "flock.ugen.sin",
-        freq: 500,
+        freq: 1,
         id: "osc1",
         mul: .15
     }
@@ -26,7 +26,7 @@ var synth2 = flock.synth({
 var synth3 = flock.synth({
     synthDef: {
         ugen: "flock.ugen.sin",
-        freq: 500,
+        freq: 1,
         id: "osc1",
         mul: .15
     }
