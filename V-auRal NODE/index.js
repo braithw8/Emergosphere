@@ -5,38 +5,45 @@ var flock = require("flocking")
 
 
 
-var synth1 = flock.synth({
-    synthDef: {
-        ugen: "flock.ugen.sin",
-        freq: 1,
-        id: "osc1",
-        mul: .15
+var synth = flock.synth({
+  synthDef:{
+    ugen: "flock.ugen.sum",
+    sources: [
+    {
+      id: "osc0",
+      ugen: "flock.ugen.sinOsc",
+      mul: 0.1,
+      freq: {
+        ugen: "flock.ugen.lfNoise",
+        mul: 0,
+        add: 500
+      }
+    },{
+      id: "osc1",
+      ugen: "flock.ugen.sinOsc",
+      mul: 0.1,
+      freq: {
+        ugen: "flock.ugen.lfNoise",
+        mul: 0,
+        add: 400
+      }
+    },{
+      id: "osc2",
+      ugen: "flock.ugen.sinOsc",
+      mul: 0.1,
+      freq: {
+        ugen: "flock.ugen.lfNoise",
+        mul: 0,
+        add: 300
+      }
     }
+    ]
+  }
 });
 
-var synth2 = flock.synth({
-    synthDef: {
-        ugen: "flock.ugen.sin",
-        freq: 1,
-        id: "osc1",
-        mul: .15
-    }
-});
 
-var synth3 = flock.synth({
-    synthDef: {
-        ugen: "flock.ugen.sin",
-        freq: 1,
-        id: "osc1",
-        mul: .15
-    }
-});
+synth.play();
 
-
-
-synth1.play();
-synth2.play();
-synth3.play();
 
 
 // Create an osc.js UDP Port listening on port 57121.
@@ -62,18 +69,31 @@ console.log("ready");
 
 udpPort.on("message", function (message) {
 
-console.log(message);
-  if (message.address === "/V-auRal/x"){
-    console.log(message.args[0].value);
-    synth1.set("osc1.freq", message.args[0].value * 50);
+//console.log(message);
+  if (message.address === "/V-auRal/position/x"){
+    //console.log("/V-auRal/position/x" + message.args[0].value);
+    synth.set("osc0.freq.add", message.args[0].value * 50);
   }
-  if (message.address === "/V-auRal/y"){
-    console.log(message.args[0].value);
-    synth2.set("osc1.freq", message.args[0].value * 500);
-  }  if (message.address === "/V-auRal/z"){
-      console.log(message.args[0].value);
-      synth3.set("osc1.freq", message.args[0].value * 50);
+  if (message.address === "/V-auRal/position/y"){
+    //console.log("/V-auRal/position/y" + message.args[0].value);
+    synth.set("osc1.freq.add", message.args[0].value * 500);
+  }  if (message.address === "/V-auRal/position/z"){
+      //console.log("/V-auRal/position/z" + message.args[0].value);
+      synth.set("osc2.freq.add", message.args[0].value * 50);
     }
+
+    if (message.address === "/V-auRal/velocity/x"){
+        console.log("/V-auRal/velocity/x" + message.args[0].value);
+        synth.set("osc0.freq.mul", message.args[0].value * 10);
+      }
+      if (message.address === "/V-auRal/velocity/y"){
+          console.log("/V-auRal/velocity/y" + message.args[0].value);
+          synth.set("osc1.freq.mul", message.args[0].value * 10);
+        }
+        if (message.address === "/V-auRal/velocity/z"){
+            console.log("/V-auRal/velocity/z" + message.args[0].value);
+            synth.set("osc2.freq.mul", message.args[0].value * 10);
+          }
 
 
 });
