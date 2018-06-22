@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<script src="flocking-all.js"></script>
+	</head>
+	<body>
+		<div class="slidecontainer"> 
+			  <input style="width:100%;height:100%" type="range" min="1" max="100" value="50" class="slider" id="myRange">
+		</div>
+
+		<script>
+			document.getElementById("myRange").oninput = function() {
+				synth.set("freqy.freq.mul", parseInt(this.value)); 
+				synth.set("funky.freq.mul", parseInt(this.value));
+				synth.set("plunky.freq.mul", parseInt(this.value)); 
+			};
+			var synth = flock.synth({
+				synthDef:{
+					ugen: "flock.ugen.sum",
+					sources: [
+					{
+						id: "freqy",
+						ugen: "flock.ugen.sinOsc",
+						freq: {
+							ugen: "flock.ugen.lfNoise",
+							mul: 100,
+							add: 500
+						}
+					},{
+						id: "funky",
+						ugen: "flock.ugen.sinOsc",
+						freq: {
+							ugen: "flock.ugen.lfNoise",
+							mul: 100,
+							add: 400
+						}
+					},{
+						id: "plunky",
+						ugen: "flock.ugen.sinOsc",
+						freq: {
+							ugen: "flock.ugen.lfNoise",
+							mul: 100,
+							add: 300
+						}
+					}
+					]
+				}
+			});
+
+			function startmything(){
+				synth.play();
+				var notes = [600, 700, 800, 900, 1000];
+				var counter = 0;
+				setInterval(function(){
+					synth.set("freqy.freq.add", notes[counter]);
+					synth.set("funky.freq.add", notes[counter]*(10/9));
+					synth.set("plunky.freq.add", notes[counter]*(3/2));
+					counter = (counter+1) % notes.length;
+
+				}, 700);
+			};
+			startmything();
+		</script>
+	</body>
+</html>
+
