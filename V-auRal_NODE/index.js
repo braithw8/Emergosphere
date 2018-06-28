@@ -14,7 +14,8 @@ var synth = flock.synth({
         ugen: "flock.ugen.sinOsc",
         mul: {
           ugen:"flock.ugen.sinOsc",
-          freq: 3
+          freq: 3,
+          mul: 0.2
         },
         freq: {
           ugen: "flock.ugen.lfNoise",
@@ -26,7 +27,8 @@ var synth = flock.synth({
         ugen: "flock.ugen.sinOsc",
         mul: {
           ugen:"flock.ugen.sinOsc",
-          freq: 3
+          freq: 3,
+          mul: 0.2
         },
         freq: {
           ugen: "flock.ugen.lfNoise",
@@ -38,7 +40,8 @@ var synth = flock.synth({
         ugen: "flock.ugen.sinOsc",
         mul: {
           ugen:"flock.ugen.sinOsc",
-          freq: 3
+          freq: 3,
+          mul: 0.2
         },
         freq: {
           ugen: "flock.ugen.lfNoise",
