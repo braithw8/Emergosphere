@@ -3,10 +3,11 @@ using System.Collections;
 
 public class TransformFunctions : MonoBehaviour
 {
-    public float moveSpeed = 10f;
-    public float turnSpeed = 50f;
+    //public float moveSpeed = 10f;
+    //public float turnSpeed = 50f;
     public float horizontalSpeed = 2.0F;
     public float verticalSpeed = 2.0F;
+    public float thrustAmount = 1f;
 
     public float thrust;
     public Rigidbody rb;
@@ -59,13 +60,13 @@ public class TransformFunctions : MonoBehaviour
 
         if (Input.GetButton("Fire1"))
         {
-            thrust = 1f;
+            thrust = thrustAmount;
             Debug.Log("Fire1");
         }
     
         else if (Input.GetButton("Fire2"))
         {
-            thrust = -1f;
+            thrust = -thrustAmount;
             Debug.Log("Fire2");
 
         }
